@@ -16,7 +16,8 @@ As part of my third-week ASP.NET Web API assignment project, I created a Propert
  - Server -> SQL Server Management Studio
  
  ## Process to run app
- - Establish four tables as shown in the Models folder.
+ - Establish four tables as shown in the Models folder with the following relation.
+  ![schema drawio](https://user-images.githubusercontent.com/68849555/221851887-3385de83-41e6-4c5b-9da5-da6f6afcb874.png)
  - Create a new asp.net web api project -> dotnet new webapi --name ProjectName
  - cd ProjectName, code . (to open that project in VS Code).
  - Scaffold your database in your Models folder.
